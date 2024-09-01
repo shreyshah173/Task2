@@ -1,8 +1,14 @@
 Passed the string after login and using that token which was response of login from user
 
-![alt text](image.png)
-![alt text](image-1.png)
 
+Generating Token
+![alt text](image-2.png)
+
+Authorizing Token 
+![alt text](image-3.png)
+
+Successful Upload
+![alt text](image-4.png)
 Build application with frontend and backend where you register a user and assign roles and permission to the user and based on roles display different view
  
 Roles and Permission should be a Middleware in backend
