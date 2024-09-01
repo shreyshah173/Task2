@@ -9,7 +9,7 @@ const app = express();
 app.use(express.json());
 
 mongoose.connect(process.env.MongoUrl).then(() => {
-  console.log('MongoDB connected')
+  // console.log('MongoDB connected')
 }).catch(err => {
   console.log(err)
 });
@@ -17,6 +17,7 @@ mongoose.connect(process.env.MongoUrl).then(() => {
 app.use('/api/documents', documentRoutes);
 
 const PORT = process.env.PORT || 5002;
-app.listen(PORT, () => 
-  console.log(`Document Service running on port ${PORT}`)
+app.listen(PORT, 
+  // () => 
+  // console.log(`Document Service running on port ${PORT}`)
 );

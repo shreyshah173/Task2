@@ -9,6 +9,20 @@ Authorizing Token
 
 Successful Upload
 ![alt text](image-4.png)
+
+If user with RoleB tried to upload 
+![alt text](image.png)
+
+Generating token for role b
+![alt text](image-7.png)
+
+Using token for role b
+![alt text](image-8.png)
+
+Access denied for role a
+![alt text](image-6.png)
+
+
 Build application with frontend and backend where you register a user and assign roles and permission to the user and based on roles display different view
  
 Roles and Permission should be a Middleware in backend
