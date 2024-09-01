@@ -18,9 +18,10 @@ Generating token for role b
 
 Using token for role b
 ![alt text](image-8.png)
+![alt text](image-5.png)
 
 Access denied for role a
-![alt text](image-6.png)
+![alt text](image-1.png)
 
 
 Build application with frontend and backend where you register a user and assign roles and permission to the user and based on roles display different view
